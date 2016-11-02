@@ -38,10 +38,15 @@ header{
 
 h3.page-title {
   margin-top: 60px;
+  font-size: 100px;
 }
 
 #intro .title {
   margin-top: 100px;
+}
+
+.details {
+  font-size: 300px;
 }
 
 @media (min-width: 768px) {
@@ -66,7 +71,7 @@ h3.page-title {
 }
 
 .fact1{
-    background-color: #F7B32B;
+    background-color: #8C1515;
 }
 
 
@@ -80,4 +85,9 @@ h3.page-title {
 
 .fact4{
     background-color: #F34213;
+}
+
+.answer {
+  background: #003262;
+  color: #fdb515;
 }

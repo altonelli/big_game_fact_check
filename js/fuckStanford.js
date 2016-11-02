@@ -23,6 +23,15 @@ $(document).ready(function(){
     }
   });
 
+  $(".fact-btn").click(function(e){
+    e.preventDefault();
+    $(this).closest('.fact').toggleClass('answer');
+    $(this).toggleClass('hidden');
+    $(this).closest('.fact').find('.details').toggleClass('hidden');
+    $(this).closest('.fact').find('.research').toggleClass('hidden');
+  });
+
+
 
 
 
