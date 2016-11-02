@@ -1,6 +1,10 @@
+@font-face {
+  font-family: GoldenBears;
+  src: url("../assets/NCAA_Cal_Golden_Bears/NCAA_Cal_Golden_Bears.otf") format("opentype");
+}
+
 body {
-  /*font-family: 'Lato', sans-serif;*/
-  font-family: 'Questrial', sans-serif;
+  font-family: 'GoldenBears';
 }
 
 .navbar {
