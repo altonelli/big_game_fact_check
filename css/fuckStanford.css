@@ -4,6 +4,7 @@
 }
 
 body {
+  text-align: center;
   font-family: 'GoldenBears';
 }
 
@@ -45,10 +46,6 @@ h3.page-title {
   font-size: 100px;
 }
 
-#intro .title {
-  margin-top: 100px;
-}
-
 .details {
   font-size: 300px;
 }
@@ -59,22 +56,37 @@ h3.page-title {
     }
 }
 
+header {
+  position: relative;
+}
 
 .bottom {
   margin-bottom: 70px;
 }
 
-.fact {
-  text-align: center;
+.fact-btn {
+  position: absolute;
+  height: auto;
+  width: 200px;
+  margin-left: -100px;
+  bottom: 70px;
 }
 
-.fact-btn {
-  bottom: 0px;
-  margin-bottom: 0px;
+.research {
+  position: absolute;
+  bottom: 70px;
+  /*left: 50%;
+  margin-right: -50%;
+  transform: translate(0%, -50%)*/
 }
 
 .intro{
-    background-color: #F72C25;
+    background-color: #003262;
+    color: #fdb515;
+}
+
+.page-title {
+  font-size: 200px;
 }
 
 .fact1{
