@@ -116,7 +116,35 @@ header {
   color: #fdb515;
 }
 
+<<<<<<< HEAD
 .answer.even {
   background-color: #fdb515;
   color: #003262;
+=======
+/******************************* TOWER FACT ***********************************/
+#collapseImages
+{
+  position: relative;
+  height: 400px;
+}
+#berkeley
+{
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -350px;
+  left: 25%;
+  height: 0;
+  width: 50%;
+}
+#stanford
+{
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -350px;
+  left: 25%;
+  height: 0;
+  width: 50%;
+>>>>>>> ab88e5dfb0635e00f5ea99722ca2ddb8ff7340b0
 }
