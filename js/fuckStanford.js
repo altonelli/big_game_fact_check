@@ -38,11 +38,6 @@ $(document).ready(function(){
     $("body").animate({scrollTop: $(document).height()});
   });
 
-  $("#collapseImages").on('hidden.bs.collapse', function() {
-    $("#berkeley").css("height", "0");
-    $("#stanford").css("height", "0");
-  });
-
 
 
 
