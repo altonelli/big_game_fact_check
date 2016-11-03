@@ -31,6 +31,17 @@ $(document).ready(function(){
     $(this).closest('.fact').find('.research').toggleClass('hidden');
   });
 
+  /**************** TOWER FACT ************/
+  $("#collapseImages").on('shown.bs.collapse', function() {
+    $("#berkeley").animate({height: "400px"}, 1500);
+    $("#stanford").animate({height: "250px"}, 1500);
+    $("body").animate({scrollTop: $(document).height()});
+  });
+
+  $("#collapseImages").on('hidden.bs.collapse', function() {
+    $("#berkeley").css("height", "0");
+    $("#stanford").css("height", "0");
+  });
 
 
 

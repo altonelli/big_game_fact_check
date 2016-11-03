@@ -100,3 +100,30 @@ h3.page-title {
   background: #003262;
   color: #fdb515;
 }
+
+/******************************* TOWER FACT ***********************************/
+#collapseImages
+{
+  position: relative;
+  height: 400px;
+}
+#berkeley
+{
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -350px;
+  left: 25%;
+  height: 0;
+  width: 50%;
+}
+#stanford
+{
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -350px;
+  left: 25%;
+  height: 0;
+  width: 50%;
+}
