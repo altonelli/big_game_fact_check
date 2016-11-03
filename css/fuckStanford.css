@@ -8,6 +8,10 @@ body {
   font-family: 'GoldenBears';
 }
 
+punc {
+  font-family: 'Squada One', cursive;
+}
+
 .navbar {
   position: fixed;
   left: 0;
@@ -55,12 +59,12 @@ h3.page-title {
   font-size: 60px;
 }
 
-.fact3 div.details {
+.fact1 div.details {
   margin-top: 50px;
-  font-size: 40px;
+  font-size: 300px;
   margin-bottom: 100px;
 }
-.fact2 div.details {
+.fact div.details {
   margin-top: 50px;
   font-size: 40px;
   margin-bottom: 100px;
