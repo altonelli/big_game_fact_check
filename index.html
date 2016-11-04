@@ -35,10 +35,12 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li calss=""><a class="scrollableLink" href="#fact1">fact1 <span class="sr-only">(current)</span></a></li>
-          <li class=""><a class="scrollableLink" href="#fact2">fact2</a></li>
-          <li class=""><a class="scrollableLink" href="#fact3" class="">fact3</a></li>
-          <li class=""><a class="scrollableLink" href="#fact4" class="">fact4</a></li>
+          <li calss=""><a class="scrollableLink" href="#fact1">fact 1 <span class="sr-only">(current)</span></a></li>
+          <li class=""><a class="scrollableLink" href="#fact2">fact 2</a></li>
+          <li class=""><a class="scrollableLink" href="#fact3" class="">fact 3</a></li>
+          <li class=""><a class="scrollableLink" href="#fact4" class="">fact 4</a></li>
+          <li class=""><a class="scrollableLink" href="#fact3" class="">fact 5</a></li>
+          <li class=""><a class="scrollableLink" href="#fact4" class="">fact 6</a></li>
         </ul>
 
 
@@ -71,11 +73,11 @@
         </div>
       </div>
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="research col-xs-2 col-xs-offset-5 hidden">
           <a href="https://img.buzzfeed.com/buzzfeed-static/static/2014-08/12/16/enhanced/webdr04/grid-cell-24434-1407875545-3.jpg">link here</a>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <button class="fact-btn btn btn-default">
@@ -90,13 +92,13 @@
   <header id="fact2"class="fact2 fact even">
     <div class="content container-fluid">
       <div class="row">
-        <h3 class="page-title">Andrew Luck looks like the Geico Caveman</h3>
+        <h3 class="page-title">Andrew Luck looks like the Geico Caveman<punc>.</punc></h3>
       </div>
 
       <div class="row">
         <div class="details hidden">
           <div class="row">
-            <img class="col-xs-3 col-xs-offset-6 col-sm-offset-4 col-sm-4 img-responsive" src="./assets/images/andrewLuck.png" alt="Former Stanford Quarterback Andrew Luck next to a caveman. They look the same." />
+            <img class="col-xs-8 col-xs-offset-2 col-sm-offset-4 col-sm-4 img-responsive" src="./assets/images/andrewLuck.png" alt="Former Stanford Quarterback Andrew Luck next to a caveman. They look the same." />
           </div>
 
           <div class="row">
@@ -108,11 +110,11 @@
         </div>
       </div>
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="research col-xs-2 col-xs-offset-5 hidden">
           <a href="#">link here</a>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <button class="fact-btn col-xs-offset-5 col-xs-2 btn btn-default">
@@ -147,11 +149,11 @@
         </div>
       </div>
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="research col-xs-2 col-xs-offset-5 hidden">
           <a href="#">link here</a>
         </div>
-      </div>
+      </div> -->
 
       <div class="row">
         <button class="fact-btn col-xs-offset-5 col-xs-2 btn btn-default">
@@ -166,27 +168,23 @@
   <header id="fact4"class="fact4 fact even">
     <div class="content container-fluid">
       <div class="row">
-        <h3 class="page-title">Fact4</h3>
+        <h3 class="page-title">
+          Stanford is easier than Berkeley.
+        </h3>
       </div>
 
       <div class="row">
-        <div class="details hidden">
-          <div class="row">
-            <img class="col-xs-3 col-xs-offset-6 col-sm-offset-4 col-sm-4 img-responsive" src="./assets/images/andrewLuck.png" alt="Former Stanford Quarterback Andrew Luck next to a caveman. They look the same." />
-          </div>
-
-          <div class="row">
-            <div class="col-xs-10 col-xs-offset-1">
-              Unconfirmed. 23AndMe tests still being verified.
-            </div>
-          </div>
-
+        <div class="details col-xs-10 col-xs-offset-1 hidden">
+            Mostly True<punc>.</punc> The average GPA of Stanford students is <punc>.</punc>28 higher than Berkeley students<punc>.</punc>
         </div>
       </div>
 
-      <div class="row">
-        <div class="research col-xs-2 col-xs-offset-5 hidden">
-          <a href="#">link here</a>
+      <div class="row grades">
+        <div class="research col-xs-6 hidden">
+          <a target="_blank" href="http://www.gradeinflation.com/Stanford.html">Grade Inflation of Stanford</a>
+        </div>
+        <div class="research col-xs-6 hidden">
+          <a target="_blank" href="http://www.gradeinflation.com/Ucberkeley.html">Grade inflation of UC Berkeley</a>
         </div>
       </div>
 
@@ -219,8 +217,8 @@
       </div>
 
       <div class="row">
-        <div class="research col-xs-2 col-xs-offset-5 hidden">
-          <a href="http://stanforddailyarchive.com/cgi-bin/stanford?a=d&d=stanford19701109-01.2.26&e=-------en-20--1--txt-txIN-------">Article Here</a>
+        <div class="research col-xs-12 hidden">
+          <a target="_blank" href="http://stanforddailyarchive.com/cgi-bin/stanford?a=d&d=stanford19701109-01.2.26&e=-------en-20--1--txt-txIN-------">Article Here</a>
         </div>
       </div>
 
@@ -242,30 +240,70 @@
       </div>
 
       <div class="row">
-        <button class="fact-btn col-xs-offset-5 col-xs-2 btn btn-default" type="button" data-toggle="collapse" data-target="#collapseImages" aria-expanded="false" aria-controls="collapseImages">
-          Fact Check
-        </button>
+        <div class="row">
+          <button class="fact-btn col-xs-offset-5 col-xs-2 btn btn-default" type="button" data-toggle="collapse" data-target="#collapseImages" aria-expanded="false" aria-controls="collapseImages">
+            Fact Check
+          </button>
+        </div>
+
       </div>
 
       <div class="row">
         <div class="details hidden">
-          <div class="col-xs-12">TRUE</div>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="col-xs-12 measurement hidden text-center">
+                307 ft
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="col-xs-12 measurement hidden text-center">
+                285 ft
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">TRUE</div>
+          </div>
+
+          <div class="row">
+
           <div class="collapse col-xs-12 navbar-static" id="collapseImages">
-              <span class="col-xs-6"><img class="img-responsive" alt="campanile" id="berkeley" src="assets/images/berkeley.jpg"/></span>
-              <span class="col-xs-6"><img class="img-responsive" alt="hoover" id="stanford" src="assets/images/stanford.jpg"/></span>
+              <span class="col-xs-6">
+                  <img class="img-responsive" alt="campanile" id="berkeley" src="assets/images/campanileClear1.png"/>
+              </span>
+              <span class="col-xs-6">
+                  <img class="img-responsive" alt="hoover" id="stanford" src="assets/images/hooverTower1.png"/>
+            </span>
+
           </div>
         </div>
-      </div>
-
-
-      <div class="row">
-        <div class="research col-xs-2 col-xs-offset-5 hidden">
-          <a href="#">link here</a>
         </div>
       </div>
 
-    </div>
+
   </header>
+  <header id="about" class="about answer odd">
+    <div class="content container-fluid">
+      <h1 class="page-title"> GO FREAKIN, BEARS</h1>
+      <h3 class="page-title">Created by a few bored alumni</h3>
+    <div class="row">
+      <div class="col-xs-12">
+        <p>
+          Note<punc>:</punc> This site does not represent the University of California<punc>,</punc> nor its views<punc>.</punc> Just the views of the magority of its students<punc>,</punc> faculty<punc>,</punc> and alumni<punc>.</punc>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <a target="_blank" href="http://eecseecs.com">brought to you by</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+</header>
 
   <!-- scripts -->
 

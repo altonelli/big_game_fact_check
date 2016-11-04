@@ -36,6 +36,9 @@ $(document).ready(function(){
     $("#berkeley").animate({height: "400px"}, 1500);
     $("#stanford").animate({height: "250px"}, 1500);
     $("body").animate({scrollTop: $(document).height()});
+
+    $(".measurement").toggleClass('hidden');
+    $(".bottom-shit").toggleClass('hidden');
   });
 
 
