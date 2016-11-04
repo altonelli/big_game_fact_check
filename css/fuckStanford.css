@@ -107,6 +107,10 @@ iframe{
       font-size: 30px;
       margin-bottom: 70px;
     }
+
+    #fact3 h3.page-title{
+      font-size:35px;
+   }
     .research{
       font-size: 15px;
     }

@@ -35,7 +35,8 @@ $(document).ready(function(){
   $("#collapseImages").on('shown.bs.collapse', function() {
     $("#berkeley").animate({height: "400px"}, 1500);
     $("#stanford").animate({height: "250px"}, 1500);
-    $("body").animate({scrollBottom: $('#about').position().top});
+    var bottom = $(document).height() - 2 * $('#about').height();
+    $("body").animate({scrollTop: bottom});
 
     $(".measurement").toggleClass('hidden');
     $(".bottom-shit").toggleClass('hidden');
