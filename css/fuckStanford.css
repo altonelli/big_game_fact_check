@@ -76,7 +76,7 @@ h3.page-title {
 }
 
 @media (max-width: 340px){
-  iframe{
+  .plotly-graph-div{
     width:280px;
     height: 250px;
     margin-left: -25px;
