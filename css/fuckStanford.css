@@ -97,7 +97,7 @@ h3.page-title {
       font-size: 200px;
     }
 
-iframe{
+.plotly-graph-div{
   width:300px;
   height: 275px;
 }
