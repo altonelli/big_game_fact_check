@@ -29,6 +29,7 @@ $(document).ready(function(){
     $(this).toggleClass('hidden');
     $(this).closest('.fact').find('.details').toggleClass('hidden');
     $(this).closest('.fact').find('.research').toggleClass('hidden');
+    $(this).closest('.fact').find('.plot-here').load("stanford.html"); 
   });
 
   /**************** TOWER FACT ************/
